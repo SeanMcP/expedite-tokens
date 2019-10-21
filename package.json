@@ -1,5 +1,5 @@
 {
-  "name": "expedite-tokens",
+  "name": "@nicheinc/expedite-tokens",
   "version": "0.1.0",
   "description": "Design Tokens for the Niche Design System",
   "main": "index.js",
