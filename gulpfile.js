@@ -169,12 +169,14 @@ gulp.task('color-formats', (done) => {
     colorFormats.map(({transformType, formatType}) => {
         return gulp
             .src('tokens/colors.yml')
+            .pipe($.rename(addPrefix))
             .pipe(
                 $.theo({
                     transform: {type: transformType, includeMeta: true},
                     format: {type: formatType},
                 }),
             )
+            .pipe($.rename(removePrefix))
             .on('error', (err) => {
                 throw new Error(err);
             })
@@ -200,7 +202,7 @@ function reload(done) {
 function watch() {
     gulp.watch(
         ['tokens/*.yml'],
-        gulp.series(['web-formats', 'positioning-formats', 'color-formats', 'color-filters', 'positioning-formats', 'spacing-formats'],
+        gulp.series(['web-formats', 'color-filters', 'spacing-formats','color-formats', 'positioning-formats'],
         ),
     );
     // For when we are generating docs
@@ -212,13 +214,13 @@ function watch() {
 gulp.task(
     'watch',
     gulp.series(
-        ['web-formats', 'positioning-formats', 'color-formats', 'color-filters', 'positioning-formats', 'spacing-formats'],
+        ['web-formats', 'color-filters', 'spacing-formats','color-formats', 'positioning-formats'],
         gulp.series(serve, watch),
     ),
 );
 
 gulp.task(
     'default',
-    gulp.series(['web-formats', 'positioning-formats', 'color-formats', 'color-filters', 'positioning-formats', 'spacing-formats'],
+    gulp.series(['web-formats', 'color-filters', 'spacing-formats','color-formats', 'positioning-formats'],
     ),
 );
