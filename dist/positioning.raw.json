@@ -1,0 +1,116 @@
+{
+  "aliases": {
+    "zIndex-5": {
+      "value": "500"
+    },
+    "zIndex-6": {
+      "value": "600"
+    },
+    "zIndex-7": {
+      "value": "700"
+    },
+    "zIndex-8": {
+      "value": "800"
+    },
+    "zIndex-9": {
+      "value": "900"
+    },
+    "zIndex-10": {
+      "value": "1000"
+    },
+    "zIndex-0": {
+      "value": "0"
+    },
+    "zIndex-1": {
+      "value": "100"
+    },
+    "zIndex-2": {
+      "value": "200"
+    },
+    "zIndex-3": {
+      "value": "300"
+    },
+    "zIndex-4": {
+      "value": "400"
+    }
+  },
+  "props": {
+    "zIndex-0": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-0",
+      "value": "0",
+      "originalValue": "{!zIndex-0}"
+    },
+    "zIndex-1": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-1",
+      "value": "100",
+      "originalValue": "{!zIndex-1}"
+    },
+    "zIndex-2": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-2",
+      "value": "200",
+      "originalValue": "{!zIndex-2}"
+    },
+    "zIndex-3": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-3",
+      "value": "300",
+      "originalValue": "{!zIndex-3}"
+    },
+    "zIndex-4": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-4",
+      "value": "400",
+      "originalValue": "{!zIndex-4}"
+    },
+    "zIndex-5": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-5",
+      "value": "500",
+      "originalValue": "{!zIndex-5}"
+    },
+    "zIndex-6": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-6",
+      "value": "600",
+      "originalValue": "{!zIndex-6}"
+    },
+    "zIndex-7": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-7",
+      "value": "700",
+      "originalValue": "{!zIndex-7}"
+    },
+    "zIndex-8": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-8",
+      "value": "800",
+      "originalValue": "{!zIndex-8}"
+    },
+    "zIndex-9": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-9",
+      "value": "900",
+      "originalValue": "{!zIndex-9}"
+    },
+    "zIndex-10": {
+      "type": "positioning",
+      "category": "z-indeces",
+      "name": "zIndex-10",
+      "value": "1000",
+      "originalValue": "{!zIndex-10}"
+    }
+  }
+}
