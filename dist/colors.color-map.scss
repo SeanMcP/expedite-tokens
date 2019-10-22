@@ -1,0 +1,347 @@
+$colors: (
+  "navy01": (
+    /* NAVY */ "base": rgb(17, 77, 165)
+  ),
+  "navy02": (
+    "base": rgb(25, 86, 221)
+  ),
+  "navy03": (
+    "base": rgb(74, 122, 230)
+  ),
+  "navy04": (
+    "base": rgb(123, 159, 238)
+  ),
+  "navy05": (
+    "base": rgb(171, 195, 247)
+  ),
+  "navy06": (
+    "base": rgb(220, 231, 255)
+  ),
+  "indigo01": (
+    /* INDIGO */ "base": rgb(0, 122, 200)
+  ),
+  "indigo02": (
+    "base": rgb(46, 154, 223)
+  ),
+  "indigo03": (
+    "base": rgb(107, 190, 242)
+  ),
+  "indigo04": (
+    "base": rgb(142, 200, 239)
+  ),
+  "indigo05": (
+    "base": rgb(184, 222, 247)
+  ),
+  "indigo06": (
+    "base": rgb(238, 249, 255)
+  ),
+  "light": (
+    /* *** */ "background": rgb(216, 240, 255)
+  ),
+  "cyan01": (
+    /* CYAN */ "base": rgb(23, 170, 221)
+  ),
+  "cyan02": (
+    "base": rgb(81, 200, 252)
+  ),
+  "cyan03": (
+    "base": rgb(119, 211, 250)
+  ),
+  "cyan04": (
+    "base": rgb(158, 221, 248)
+  ),
+  "cyan05": (
+    "base": rgb(196, 231, 246)
+  ),
+  "cyan06": (
+    "base": rgb(230, 249, 252)
+  ),
+  "teal01": (
+    /* TEAL */ "base": rgb(52, 183, 179)
+  ),
+  "teal02": (
+    "base": rgb(94, 191, 191)
+  ),
+  "teal03": (
+    "base": rgb(128, 206, 206)
+  ),
+  "teal04": (
+    "base": rgb(162, 222, 220)
+  ),
+  "teal05": (
+    "base": rgb(196, 237, 235)
+  ),
+  "teal06": (
+    "base": rgb(230, 252, 249)
+  ),
+  "turquoise01": (
+    /* TURQUOISE */ "base": rgb(80, 173, 135)
+  ),
+  "turquoise02": (
+    "base": rgb(127, 198, 172)
+  ),
+  "turquoise03": (
+    "base": rgb(153, 212, 191)
+  ),
+  "turquoise04": (
+    "base": rgb(179, 227, 210)
+  ),
+  "turquoise05": (
+    "base": rgb(204, 241, 228)
+  ),
+  "turquoise06": (
+    "base": rgb(230, 255, 247)
+  ),
+  "jade01": (
+    /* JADE */ "base": rgb(78, 163, 97)
+  ),
+  "jade02": (
+    "base": rgb(89, 180, 111)
+  ),
+  "jade03": (
+    "base": rgb(122, 199, 141)
+  ),
+  "jade04": (
+    "base": rgb(156, 218, 171)
+  ),
+  "jade05": (
+    "base": rgb(189, 236, 201)
+  ),
+  "jade06": (
+    "base": rgb(222, 255, 231)
+  ),
+  "green01": (
+    /* GREEN */ "base": rgb(64, 145, 38)
+  ),
+  "green02": (
+    /* aka "Niche Green" */ "base": rgb(83, 166, 58)
+  ),
+  "green03": (
+    "base": rgb(124, 188, 103)
+  ),
+  "green04": (
+    "base": rgb(164, 211, 148)
+  ),
+  "green05": (
+    "base": rgb(197, 228, 184)
+  ),
+  "green06": (
+    "base": rgb(233, 247, 226)
+  ),
+  "green07": (
+    "base": rgb(245, 251, 242)
+  ),
+  "green08": (
+    "base": rgb(218, 242, 208)
+  ),
+  "block": (
+    "green": rgb(229, 237, 222)
+  ),
+  "nav": (
+    /* Global Nav */ "green": rgb(89, 164, 77),
+    /* Slight tweak on Global Nav green tinted a shade darker */ "tint":
+      rgb(73, 147, 55)
+  ),
+  "notification": (
+    "green": rgb(67, 123, 58)
+  ),
+  "limegreen01": (
+    /* LIMEGREEN */ "base": rgb(132, 186, 28)
+  ),
+  "limegreen02": (
+    "base": rgb(155, 204, 70)
+  ),
+  "limegreen03": (
+    "base": rgb(178, 217, 108)
+  ),
+  "limegreen04": (
+    "base": rgb(202, 230, 146)
+  ),
+  "limegreen05": (
+    "base": rgb(225, 242, 184)
+  ),
+  "limegreen06": (
+    "base": rgb(248, 255, 222)
+  ),
+  "yellow01": (
+    /* YELLOW */ "base": rgb(215, 199, 0)
+  ),
+  "yellow02": (
+    "base": rgb(237, 217, 0)
+  ),
+  "yellow03": (
+    "base": rgb(242, 227, 51)
+  ),
+  "yellow04": (
+    "base": rgb(246, 235, 102)
+  ),
+  "yellow05": (
+    "base": rgb(251, 242, 152)
+  ),
+  "yellow06": (
+    "base": rgb(255, 250, 203)
+  ),
+  "mustard01": (
+    /* MUSTARD */ "base": rgb(224, 196, 63)
+  ),
+  "mustard02": (
+    "base": rgb(242, 212, 84)
+  ),
+  "mustard03": (
+    "base": rgb(245, 223, 123)
+  ),
+  "mustard04": (
+    "base": rgb(249, 234, 162)
+  ),
+  "mustard05": (
+    "base": rgb(252, 244, 201)
+  ),
+  "mustard06": (
+    "base": rgb(255, 254, 223)
+  ),
+  "brown01": (
+    /* BROWN */ "base": rgb(135, 118, 92)
+  ),
+  "brown02": (
+    "base": rgb(155, 136, 109)
+  ),
+  "brown03": (
+    "base": rgb(180, 162, 133)
+  ),
+  "brown04": (
+    "base": rgb(205, 188, 157)
+  ),
+  "brown05": (
+    "base": rgb(230, 213, 180)
+  ),
+  "brown06": (
+    "base": rgb(255, 239, 204)
+  ),
+  "brick01": (
+    /* BRICK */ "base": rgb(183, 67, 65)
+  ),
+  "brick02": (
+    "base": rgb(210, 89, 80)
+  ),
+  "brick03": (
+    "base": rgb(232, 137, 123)
+  ),
+  "brick04": (
+    "base": rgb(233, 171, 151)
+  ),
+  "brick05": (
+    "base": rgb(244, 211, 187)
+  ),
+  "brick06": (
+    "base": rgb(255, 234, 220)
+  ),
+  "red01": (
+    /* RED */ "base": rgb(226, 83, 51)
+  ),
+  "red02": (
+    "base": rgb(244, 114, 74)
+  ),
+  "red03": (
+    "base": rgb(247, 143, 106)
+  ),
+  "red04": (
+    "base": rgb(250, 175, 153)
+  ),
+  "red05": (
+    "base": rgb(252, 206, 199)
+  ),
+  "red06": (
+    "base": rgb(255, 228, 225)
+  ),
+  "fuschia01": (
+    /* FUSCHIA */ "base": rgb(173, 46, 78)
+  ),
+  "fuschia02": (
+    "base": rgb(204, 54, 97)
+  ),
+  "fuschia03": (
+    "base": rgb(215, 98, 137)
+  ),
+  "fuschia04": (
+    "base": rgb(226, 142, 176)
+  ),
+  "fuschia05": (
+    "base": rgb(236, 186, 216)
+  ),
+  "fuschia06": (
+    "base": rgb(247, 230, 255)
+  ),
+  "gray00": (
+    /* GRAY */ "base": rgb(38, 38, 38)
+  ),
+  "gray01": (
+    "base": rgb(51, 51, 51)
+  ),
+  "gray02": (
+    "base": rgb(70, 70, 70)
+  ),
+  "gray03": (
+    "base": rgb(95, 95, 95)
+  ),
+  "gray04": (
+    "base": rgb(120, 120, 120)
+  ),
+  "gray05": (
+    "base": rgb(145, 145, 145)
+  ),
+  "gray06": (
+    "base": rgb(171, 171, 171)
+  ),
+  "gray07": (
+    "base": rgb(187, 187, 187)
+  ),
+  "gray08": (
+    "base": rgb(204, 204, 204)
+  ),
+  "gray09": (
+    "base": rgb(221, 221, 221)
+  ),
+  "gray10": (
+    "base": rgb(230, 230, 230)
+  ),
+  "gray11": (
+    "base": rgb(238, 238, 238)
+  ),
+  "gray12": (
+    "base": rgb(246, 246, 246)
+  ),
+  "gray13": (
+    "base": rgb(250, 250, 250)
+  ),
+  "facebook": (
+    /* SOCIAL MEDIA COLORS */ "base": rgb(59, 89, 152),
+    "hover": rgb(76, 112, 186)
+  ),
+  "gplus": (
+    "base": rgb(234, 117, 107),
+    "hover": rgb(237, 138, 129)
+  ),
+  "twitter": (
+    "base": rgb(112, 206, 238),
+    "hover": rgb(135, 214, 241)
+  ),
+  "rgba": (
+    /* TRANSPARENT COLORS */ "50": rgba(0, 0, 0, 0.5),
+    "70": rgba(0, 0, 0, 0.7),
+    "30": rgba(0, 0, 0, 0.3),
+    "25": rgba(0, 0, 0, 0.25),
+    "15": rgba(0, 0, 0, 0.15),
+    "10": rgba(0, 0, 0, 0.1),
+    "5": rgba(0, 0, 0, 0.05),
+    "50": rgba(255, 255, 255, 0.5),
+    "25": rgba(255, 255, 255, 0.25),
+    "15": rgba(255, 255, 255, 0.15),
+    "70": rgba(240, 240, 240, 0.7)
+  ),
+  "black": (
+    /* BLACK AND WHITE */ "base": rgb(0, 0, 0)
+  ),
+  "white": (
+    "base": rgb(255, 255, 255)
+  )
+);

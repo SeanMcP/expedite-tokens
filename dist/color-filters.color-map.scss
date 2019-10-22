@@ -1,0 +1,346 @@
+$expedite-color-filters: (
+  "navy01": (
+    /* NAVY */ "base": none
+  ),
+  "navy02": (
+    "base": none
+  ),
+  "navy03": (
+    "base": none
+  ),
+  "navy04": (
+    "base": none
+  ),
+  "navy05": (
+    "base": none
+  ),
+  "navy06": (
+    "base": none
+  ),
+  "indigo01": (
+    /* INDIGO */ "base": none
+  ),
+  "indigo02": (
+    "base": none
+  ),
+  "indigo03": (
+    "base": none
+  ),
+  "indigo04": (
+    "base": none
+  ),
+  "indigo05": (
+    "base": none
+  ),
+  "indigo06": (
+    "base": none
+  ),
+  "light": (
+    /* *** */ "background": none
+  ),
+  "cyan01": (
+    /* CYAN */ "base": none
+  ),
+  "cyan02": (
+    "base": none
+  ),
+  "cyan03": (
+    "base": none
+  ),
+  "cyan04": (
+    "base": none
+  ),
+  "cyan05": (
+    "base": none
+  ),
+  "cyan06": (
+    "base": none
+  ),
+  "teal01": (
+    /* TEAL */ "base": none
+  ),
+  "teal02": (
+    "base": none
+  ),
+  "teal03": (
+    "base": none
+  ),
+  "teal04": (
+    "base": none
+  ),
+  "teal05": (
+    "base": none
+  ),
+  "teal06": (
+    "base": none
+  ),
+  "turquoise01": (
+    /* TURQUOISE */ "base": none
+  ),
+  "turquoise02": (
+    "base": none
+  ),
+  "turquoise03": (
+    "base": none
+  ),
+  "turquoise04": (
+    "base": none
+  ),
+  "turquoise05": (
+    "base": none
+  ),
+  "turquoise06": (
+    "base": none
+  ),
+  "jade01": (
+    /* JADE */ "base": none
+  ),
+  "jade02": (
+    "base": none
+  ),
+  "jade03": (
+    "base": none
+  ),
+  "jade04": (
+    "base": none
+  ),
+  "jade05": (
+    "base": none
+  ),
+  "jade06": (
+    "base": none
+  ),
+  "green01": (
+    /* GREEN */ "base": none
+  ),
+  "green02": (
+    /* aka "Niche Green" */ "base": none
+  ),
+  "green03": (
+    "base": none
+  ),
+  "green04": (
+    "base": none
+  ),
+  "green05": (
+    "base": none
+  ),
+  "green06": (
+    "base": none
+  ),
+  "green07": (
+    "base": none
+  ),
+  "green08": (
+    "base": none
+  ),
+  "block": (
+    "green": none
+  ),
+  "nav": (
+    /* Global Nav */ "green": none,
+    /* Slight tweak on Global Nav green tinted a shade darker */ "tint": none
+  ),
+  "notification": (
+    "green": none
+  ),
+  "limegreen01": (
+    /* LIMEGREEN */ "base": none
+  ),
+  "limegreen02": (
+    "base": none
+  ),
+  "limegreen03": (
+    "base": none
+  ),
+  "limegreen04": (
+    "base": none
+  ),
+  "limegreen05": (
+    "base": none
+  ),
+  "limegreen06": (
+    "base": none
+  ),
+  "yellow01": (
+    /* YELLOW */ "base": none
+  ),
+  "yellow02": (
+    "base": none
+  ),
+  "yellow03": (
+    "base": none
+  ),
+  "yellow04": (
+    "base": none
+  ),
+  "yellow05": (
+    "base": none
+  ),
+  "yellow06": (
+    "base": none
+  ),
+  "mustard01": (
+    /* MUSTARD */ "base": none
+  ),
+  "mustard02": (
+    "base": none
+  ),
+  "mustard03": (
+    "base": none
+  ),
+  "mustard04": (
+    "base": none
+  ),
+  "mustard05": (
+    "base": none
+  ),
+  "mustard06": (
+    "base": none
+  ),
+  "brown01": (
+    /* BROWN */ "base": none
+  ),
+  "brown02": (
+    "base": none
+  ),
+  "brown03": (
+    "base": none
+  ),
+  "brown04": (
+    "base": none
+  ),
+  "brown05": (
+    "base": none
+  ),
+  "brown06": (
+    "base": none
+  ),
+  "brick01": (
+    /* BRICK */ "base": none
+  ),
+  "brick02": (
+    "base": none
+  ),
+  "brick03": (
+    "base": none
+  ),
+  "brick04": (
+    "base": none
+  ),
+  "brick05": (
+    "base": none
+  ),
+  "brick06": (
+    "base": none
+  ),
+  "red01": (
+    /* RED */ "base": none
+  ),
+  "red02": (
+    "base": none
+  ),
+  "red03": (
+    "base": none
+  ),
+  "red04": (
+    "base": none
+  ),
+  "red05": (
+    "base": none
+  ),
+  "red06": (
+    "base": none
+  ),
+  "fuschia01": (
+    /* FUSCHIA */ "base": none
+  ),
+  "fuschia02": (
+    "base": none
+  ),
+  "fuschia03": (
+    "base": none
+  ),
+  "fuschia04": (
+    "base": none
+  ),
+  "fuschia05": (
+    "base": none
+  ),
+  "fuschia06": (
+    "base": none
+  ),
+  "gray00": (
+    /* GRAY */ "base": none
+  ),
+  "gray01": (
+    "base": none
+  ),
+  "gray02": (
+    "base": none
+  ),
+  "gray03": (
+    "base": none
+  ),
+  "gray04": (
+    "base": none
+  ),
+  "gray05": (
+    "base": none
+  ),
+  "gray06": (
+    "base": none
+  ),
+  "gray07": (
+    "base": none
+  ),
+  "gray08": (
+    "base": none
+  ),
+  "gray09": (
+    "base": none
+  ),
+  "gray10": (
+    "base": none
+  ),
+  "gray11": (
+    "base": none
+  ),
+  "gray12": (
+    "base": none
+  ),
+  "gray13": (
+    "base": none
+  ),
+  "facebook": (
+    /* SOCIAL MEDIA COLORS */ "base": none,
+    "hover": none
+  ),
+  "gplus": (
+    "base": none,
+    "hover": none
+  ),
+  "twitter": (
+    "base": none,
+    "hover": none
+  ),
+  "rgba": (
+    /* TRANSPARENT COLORS */ "50": none,
+    "70": none,
+    "30": none,
+    "25": none,
+    "15": none,
+    "10": none,
+    "5": none,
+    "50": none,
+    "25": none,
+    "15": none,
+    "70": none
+  ),
+  "black": (
+    /* BLACK AND WHITE */ "base": none
+  ),
+  "white": (
+    "base": none
+  )
+);
